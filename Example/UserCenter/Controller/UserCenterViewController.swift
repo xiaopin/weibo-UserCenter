@@ -1,6 +1,6 @@
 //
 //  UserCenterViewController.swift
-//  Example
+//  https://github.com/xiaopin/weibo-UserCenter.git
 //
 //  Created by nhope on 2018/2/6.
 //  Copyright © 2018年 xiaopin. All rights reserved.
@@ -29,7 +29,7 @@ class UserCenterViewController: UIViewController {
     private let headerView = UserCenterHeaderView()
     /// 分段按钮视图
     private let segmentedView = UserCenterSegmentedView()
-    ///
+    /// 用于左右滑动切换控制器
     private let pageViewController = UIPageViewController(transitionStyle: .scroll, navigationOrientation: .horizontal, options: [UIPageViewControllerOptionInterPageSpacingKey: 10.0])
     /// 控制器
     private let viewControllers: [UserCenterContentProxyViewController] = {
@@ -210,7 +210,7 @@ extension UserCenterViewController: UIScrollViewDelegate {
 // MARK: -
 
 /**
- * Swift中必须显示声明遵守`UIGestureRecognizerDelegate`协议
+ * Swift中必须显式声明遵守`UIGestureRecognizerDelegate`协议
  * 否则不会回调`gestureRecognizer(_:shouldRecognizeSimultaneouslyWith:)`
  */
 private class UserCenterScrollView: UIScrollView, UIGestureRecognizerDelegate {

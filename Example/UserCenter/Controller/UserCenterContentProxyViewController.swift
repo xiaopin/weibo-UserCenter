@@ -1,6 +1,6 @@
 //
 //  UserCenterContentProxyViewController.swift
-//  Example
+//  https://github.com/xiaopin/weibo-UserCenter.git
 //
 //  Created by nhope on 2018/2/7.
 //  Copyright © 2018年 xiaopin. All rights reserved.
