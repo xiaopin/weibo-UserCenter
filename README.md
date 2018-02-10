@@ -2,7 +2,7 @@
 
 [![Build](https://img.shields.io/wercker/ci/wercker/docs.svg)]()
 [![Platform](https://img.shields.io/badge/platform-iOS-blue.svg?style=flat)]()
-[![Language](https://img.shields.io/badge/platform-Swift-blue.svg?style=flat)]()
+[![Language](https://img.shields.io/badge/Language-Swift%20&%20ObjC-blue.svg?style=flat)]()
 [![License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat)]()
 
 
